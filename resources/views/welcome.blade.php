@@ -12,7 +12,7 @@
 <body>
     <livewire:counter/>
 
-    <livewire:form-with-basic-validation/>
+    @include('partials.form-handling')
 
     <livewire:scripts/>
     @stack('scripts')
