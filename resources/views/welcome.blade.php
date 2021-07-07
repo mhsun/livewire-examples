@@ -12,7 +12,7 @@
 <body>
     <livewire:counter/>
 
-    <livewire:form-without-validation/>
+    <livewire:form-with-basic-validation/>
 
     <livewire:scripts/>
     @stack('scripts')
