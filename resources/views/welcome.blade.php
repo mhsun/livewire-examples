@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel</title>
+    <title>Laravel Livewire</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <livewire:styles/>
-    <style>
-        body {
-            font-family: 'Nunito', sans-serif;
-        }
-    </style>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <livewire:styles/>
+    @stack('styles')
 </head>
 <body>
-<livewire:counter/>
-<livewire:scripts/>
+    <livewire:counter/>
+
+    <livewire:form-without-validation/>
+
+    <livewire:scripts/>
+    @stack('scripts')
 </body>
 </html>
