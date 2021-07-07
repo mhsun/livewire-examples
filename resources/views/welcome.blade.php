@@ -11,9 +11,10 @@
             font-family: 'Nunito', sans-serif;
         }
     </style>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-
+<livewire:counter/>
 <livewire:scripts/>
 </body>
 </html>
