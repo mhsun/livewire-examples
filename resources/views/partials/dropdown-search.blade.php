@@ -1,4 +1,4 @@
-<div class="flex justify-center items-center h-screen">
+<div class="flex justify-center items-center h-screen bg-gray-100">
     <div x-data="setup()">
         <ul class="flex justify-center items-center my-4">
             <template x-for="(tab, index) in tabs" :key="index">
@@ -10,16 +10,16 @@
 
         <div class="w-full bg-indigo-100 p-16 mx-auto border">
             <div x-show="activeTab===0">
-                <livewire:form-with-basic-validation/>
+                <livewire:dependent-dropdown/>
             </div>
             <div x-show="activeTab===1">
-                <livewire:form-with-real-time-validation/>
+                content 1
             </div>
             <div x-show="activeTab===2">
-                <livewire:input-on-focus-out-validation/>
+                content 2
             </div>
             <div x-show="activeTab===3">
-                <livewire:on-submit-validation/>
+                content 3
             </div>
         </div>
     </div>
@@ -32,7 +32,7 @@
             return {
                 activeTab: 0,
                 tabs: [
-                    "Basic Form Validation",
+                    "Dependent Dropdown",
                     "Real Time Form Validation",
                     "On Focusout Validation",
                     "On Submit Validation",

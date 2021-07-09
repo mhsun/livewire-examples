@@ -10,10 +10,8 @@
     @stack('styles')
 </head>
 <body>
-    <livewire:counter/>
 
-    @include('partials.form-handling')
-
+    @include('partials.dropdown-search')
     <livewire:scripts/>
     @stack('scripts')
 </body>
