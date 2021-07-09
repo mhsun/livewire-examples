@@ -13,13 +13,7 @@
                 <livewire:dependent-dropdown/>
             </div>
             <div x-show="activeTab===1">
-                content 1
-            </div>
-            <div x-show="activeTab===2">
-                content 2
-            </div>
-            <div x-show="activeTab===3">
-                content 3
+                <livewire:live-search/>
             </div>
         </div>
     </div>
@@ -33,9 +27,7 @@
                 activeTab: 0,
                 tabs: [
                     "Dependent Dropdown",
-                    "Real Time Form Validation",
-                    "On Focusout Validation",
-                    "On Submit Validation",
+                    "Live Search",
                 ]
             };
         }

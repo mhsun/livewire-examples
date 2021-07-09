@@ -1,6 +1,6 @@
 <div class="max-w-full mx-auto">
     <div>
-        <h1 class="text-center font-bold fo">Dropdown Based on Another Dropdown</h1>
+        <h1 class="text-center font-bold">Dropdown Based on Another Dropdown</h1>
     </div>
     <div class="divide-y divide-gray-200">
         <div class="py-5 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
